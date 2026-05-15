@@ -117,14 +117,13 @@ function Hero() {
           initial={{ opacity: 0, scale: 0.85 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.3 }}
-          className="relative hidden min-h-[560px] items-center justify-center lg:flex"
+          //className="relative hidden min-h-[560px] items-center justify-center lg:flex"
+          className="relative mt-14 flex min-h-[420px] items-center justify-center lg:mt-0 lg:min-h-[560px]"
         >
           {/* Outer Rings */}
-          <div className="absolute h-[470px] w-[470px] rounded-full border border-cyan-400/20" />
-
-          <div className="absolute h-[560px] w-[560px] rounded-full border border-dashed border-cyan-400/30" />
-
-          <div className="absolute h-[500px] w-[500px] rounded-full bg-cyan-400/10 blur-3xl" />
+          <div className="absolute h-[300px] w-[300px] rounded-full border border-cyan-400/20 lg:h-[470px] lg:w-[470px]" />
+          <div className="absolute h-[360px] w-[360px] rounded-full border border-dashed border-cyan-400/30 lg:h-[560px] lg:w-[560px]" />
+          <div className="absolute h-[330px] w-[330px] rounded-full bg-cyan-400/10 blur-3xl lg:h-[500px] lg:w-[500px]" />
 
           {/* Profile Image */}
           <div className="relative z-10 flex h-[415px] w-[390px] items-end justify-center overflow-hidden rounded-full border-4 border-cyan-400 bg-gradient-to-b from-cyan-900/60 to-slate-950 shadow-2xl shadow-cyan-500/40">
