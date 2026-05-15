@@ -62,7 +62,7 @@ function About() {
           </p>
 
           <p className="mt-6 text-lg leading-8 text-slate-300">
-            I also worked as a Backend Developer Intern at SoftxAI,
+            I also worked as a Software Developer  at SoftxAI,
             where I contributed to building production-ready APIs,
             authentication flows, testing, and new backend features.
           </p>

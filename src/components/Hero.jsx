@@ -126,7 +126,7 @@ function Hero() {
           <div className="absolute h-[330px] w-[330px] rounded-full bg-cyan-400/10 blur-3xl lg:h-[500px] lg:w-[500px]" />
 
           {/* Profile Image */}
-          <div className="relative z-10 flex h-[415px] w-[390px] items-end justify-center overflow-hidden rounded-full border-4 border-cyan-400 bg-gradient-to-b from-cyan-900/60 to-slate-950 shadow-2xl shadow-cyan-500/40">
+          <div className="relative z-10 flex h-[438px] w-[440px] items-end justify-center overflow-hidden rounded-full border-4 border-cyan-400 bg-gradient-to-b from-cyan-900/60 to-slate-950 shadow-2xl shadow-cyan-500/40">
             <img
               src="/profile.png"
               alt="Indrajeet Raj"
