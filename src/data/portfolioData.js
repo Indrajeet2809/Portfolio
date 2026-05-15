@@ -19,6 +19,7 @@ import {
 
 import aiInterview from "../assets/ai-interview.png";
 import teamCollab from "../assets/team-collab.png";
+import schoolmgmt from "../assets/school-management.png";
 
 export const skills = [
   { name: "JavaScript", icon: FaJs, color: "text-yellow-400" },
@@ -58,18 +59,19 @@ export const projects = [
   },
   {
     title: "School Management Prototype",
+    image: schoolmgmt,
     description:
-      "Government-focused school management dashboard with Super Admin, Principal, Teacher, Student, and Parent role-based access.",
+      "Government-focused school management dashboard with Super Admin, Principal, Teacher, Student, and Parent role-based access. [*Under Development*]",
     tech: ["React", "TypeScript", "Dashboard UI"],
     github: "#",
-    live: "#",
+    live: "https://avs-edu-tech.vercel.app/",
   },
-  {
-    title: "Facial Recognition Attendance",
-    description:
-      "OpenCV-based attendance system that detects faces and manages attendance digitally.",
-    tech: ["Python", "OpenCV", "Machine Learning"],
-    github: "#",
-    live: "#",
-  },
+  // {
+  //   title: "Facial Recognition Attendance",
+  //   description:
+  //     "OpenCV-based attendance system that detects faces and manages attendance digitally.",
+  //   tech: ["Python", "OpenCV", "Machine Learning"],
+  //   github: "#",
+  //   live: "#",
+  // },
 ];

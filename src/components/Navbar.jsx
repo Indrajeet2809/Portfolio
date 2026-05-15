@@ -18,14 +18,20 @@ function Navbar() {
   };
 
   return (
-    <header className="fixed top-0 z-50 w-full border-b border-cyan-400/10 bg-[#020817]/90 backdrop-blur-xl">
+    <header 
+    //className="fixed top-0 z-50 w-full border-b border-cyan-400/10 bg-[#020817]/90 backdrop-blur-xl"
+    className="fixed top-0 z-50 w-full border-b border-cyan-400/10 bg-gradient-to-r from-[#071120]/95 via-[#0f172a]/95 to-[#071120]/95 backdrop-blur-xl"
+    //className="fixed top-0 z-50 w-full border-b border-white/10 bg-slate-900/70 backdrop-blur-2xl"
+    //className="fixed top-0 z-50 w-full border-b border-cyan-400/10 bg-[#071120]/90 backdrop-blur-xl"
+    >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a
           href="#home"
           onClick={closeMenu}
-          className="text-2xl font-bold text-white"
+          className="text-3xl font-extrabold tracking-wide text-slate-100"
         >
-          <span className="text-cyan-400">&lt;/&gt;</span> Indrajeet Raj
+          <span className="bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">
+          &lt;/&gt;</span> Indrajeet Raj
         </a>
 
         <div className="hidden items-center gap-8 text-sm text-slate-300 lg:flex">
@@ -42,7 +48,9 @@ function Navbar() {
 
         <a
           href="/Indrajeet_Raj_Resume.pdf"
-          className="hidden items-center gap-2 rounded-lg bg-cyan-400 px-5 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-500/30 transition-all hover:bg-cyan-300 lg:flex"
+          //className="hidden items-center gap-2 rounded-lg bg-cyan-400 px-5 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-500/30 transition-all hover:bg-cyan-300 lg:flex"
+          //className="hidden items-center gap-3 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 px-6 py-3 text-base font-semibold text-white shadow-lg shadow-cyan-500/30 transition-all hover:scale-105 hover:shadow-cyan-400/40 lg:flex"
+          className="hidden items-center gap-1 rounded-md bg-gradient-to-r from-cyan-400 to-blue-500 px-4 py-2 text-xs font-semibold text-white shadow-md transition-all hover:scale-105 lg:flex"
         >
           Download Resume <FaDownload />
         </a>

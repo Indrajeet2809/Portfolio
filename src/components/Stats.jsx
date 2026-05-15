@@ -4,7 +4,7 @@ function Stats() {
   const stats = [
     {
       icon: FaCode,
-      number: "4+",
+      number: "10+",
       label: "Projects Completed",
     },
     {

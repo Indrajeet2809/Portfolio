@@ -96,3 +96,27 @@ button {
 a {
   text-decoration: none;
 }
+
+
+.projects-swiper .swiper-button-next,
+.projects-swiper .swiper-button-prev {
+  color: #22d3ee;
+  background: rgba(15, 23, 42, 0.9);
+  width: 52px;
+  height: 52px;
+  border-radius: 9999px;
+  border: 1px solid rgba(34, 211, 238, 0.25);
+  backdrop-filter: blur(10px);
+}
+
+.projects-swiper .swiper-button-next::after,
+.projects-swiper .swiper-button-prev::after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.projects-swiper .swiper-button-next:hover,
+.projects-swiper .swiper-button-prev:hover {
+  background: #22d3ee;
+  color: #020817;
+}

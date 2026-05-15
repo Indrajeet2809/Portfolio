@@ -6,6 +6,7 @@ import {
   FaLinkedin,
   FaMapMarkerAlt,
   FaPaperPlane,
+  FaPhoneAlt,
 } from "react-icons/fa";
 
 function Contact() {
@@ -106,13 +107,30 @@ function Contact() {
             </div>
 
             <div className="flex items-center gap-5">
+             <div className="rounded-xl bg-cyan-400/10 p-4">
+             <FaPhoneAlt className="text-2xl text-cyan-400" />
+             </div>
+
+             <div>
+              <p className="text-slate-400">Phone</p>
+
+             <a
+              href="tel:+919936566414"
+              className="text-white hover:text-cyan-400"
+             >
+            +91 9936566414
+           </a>
+          </div>
+         </div>
+
+            <div className="flex items-center gap-5">
               <div className="rounded-xl bg-cyan-400/10 p-4">
                 <FaMapMarkerAlt className="text-2xl text-cyan-400" />
               </div>
 
               <div>
                 <p className="text-slate-400">Location</p>
-                <p className="text-white">India</p>
+                <p className="text-white">Kushinagar, Uttar Pradesh, India</p>
               </div>
             </div>
 
